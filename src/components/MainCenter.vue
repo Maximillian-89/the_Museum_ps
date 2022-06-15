@@ -345,5 +345,17 @@ export default {
         border-bottom: .125rem solid black;
     }
 
+    .text-center {
+        text-align: center;
+        padding-bottom: 6.25rem;
+
+        button {
+            font-weight: 600;
+            font-size: 1.75rem;
+            line-height: 2.25rem;
+            letter-spacing: -0.02em;
+        }
+    }
+
 @import '@/assets/style/mediaQueryCenter.scss';
 </style>
