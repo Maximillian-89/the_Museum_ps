@@ -1,0 +1,75 @@
+@media only screen and (max-width: 1199px) {
+    .main_head_container {
+        display: unset;
+    }
+
+    #first-row {
+        padding-top: 6.25rem;
+    }
+
+    #select-row {
+        padding-top: 2rem;
+        padding-bottom: 4.375rem;
+
+        .first-select, .second-select {
+            justify-content: flex-start;
+        }
+
+        .first-select {
+            padding-bottom: 1.25rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .col-xs-12.col-md-6 {
+        margin-bottom: 4.5rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .col-xs-12.col-md-6 {
+        margin-bottom: 3.5rem;
+    }
+
+    #second-row {
+        .card-data-time {
+            h3 {
+                font-size: 1.7rem
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #select-row {
+        .first-select, .second-select {
+            h4 {
+                font-size: 1.5rem;
+            }
+
+            .select-container {
+                .data-select, .activity-select {
+                    font-size: 1.2rem;
+                    padding-right: 3.125rem;
+                }
+            }
+        }
+    }
+}
+
+#select-row {
+    .first-select, .second-select {
+        h4 {
+            font-size: 1.5rem;
+        }
+
+        .select-container {
+            .activity-select {
+                font-size: 1.2rem;
+                padding-right: 1.3rem;
+            }
+        }
+    }
+}
+
